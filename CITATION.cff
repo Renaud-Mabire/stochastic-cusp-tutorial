@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Preparation metadata only. A preferred citation and archival DOI will be added at public release."
+message: "Please cite these companion materials using the metadata below. An archival DOI will be added after Zenodo publication."
 title: "A Step-by-Step Tutorial on the Stochastic Cusp Model in R — companion materials"
 type: software
 authors:
@@ -12,3 +12,10 @@ authors:
   - family-names: "van der Maas"
     given-names: "Han L. J."
     orcid: "https://orcid.org/0000-0001-8278-319X"
+version: "1.0.0"
+date-released: "2026-10-01"
+repository-code: "https://github.com/Renaud-Mabire/stochastic-cusp-tutorial"
+url: "https://github.com/Renaud-Mabire/stochastic-cusp-tutorial/releases/tag/v1.0.0"
+license:
+  - MIT
+  - CC-BY-4.0

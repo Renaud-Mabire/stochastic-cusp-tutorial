@@ -2,7 +2,7 @@
 
 Fixed synthetic data and reader scripts accompanying the tutorial by Renaud Mabire-Yon, Raoul P. P. P. Grasman, and Han L. J. van der Maas.
 
-**Preparation version.** These materials are derived from the manuscript package v1.7.0. The repository is public; the versioned release and archival DOI are pending. The first author approved MIT for code and CC BY 4.0 for the data and documentation. The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
+**Companion materials v1.0.0.** These materials accompany manuscript package v1.7.0. The repository is public. Code is licensed under MIT; original data, results, and documentation are licensed under CC BY 4.0. The archival DOI is pending. The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
 
 ## Start locally
 
@@ -46,21 +46,21 @@ The selected teaching example and its numerical checks do not establish general 
 
 ## Online setup and release status
 
-After public hosting, readers will be able to source `prepare_tutorial.R` from a URL pinned to the approved Git commit, then call `setwd(prepare_cusp_tutorial())`. This prepares the reader files and checks their hashes; it neither installs packages nor runs analyses. It refuses to overwrite an existing destination folder.
+Readers can source `prepare_tutorial.R` from the version-tagged URL below, then call `setwd(prepare_cusp_tutorial())`. This prepares the reader files and checks their hashes; it neither installs packages nor runs analyses. It refuses to overwrite an existing destination folder.
 
-The public repository is available, but the planned version-tagged setup command and archival DOI are not yet finalized. The helper has been parsed and statically inspected but has not been tested against a hosted release. The first author must test it before its command is added to the article. The complete interactive tutorial, including its single-profile plot, also awaits native-R execution by the first author. The automated reader run is already archived.
+On October 1, 2026, the first author ran the public-download check under native R 4.6.0 on macOS: all 31 reader files matched their expected hashes, with no recorded errors or warnings. He subsequently confirmed that the complete interactive tutorial worked on his Mac. The interactive confirmation is a user report; it is not a new archived statistical-results audit. The earlier automated reader run remains archived. The setup function and analysis scripts are unchanged from the tested preparation. These checks do not establish performance on every R environment. A Zenodo DOI will be added after archival publication.
 
 No models, simulations, densities, or statistical calculations were executed while preparing this repository. Original reader scripts, data, and archived results were copied without modification.
 
-License scope and attribution are documented in `LICENSE.md`; full texts are in `LICENSES/`. The preferred citation will be finalized with the archival DOI. See `LICENSE_STATUS.md` and `CITATION.cff` for preparation metadata.
+License scope and attribution are documented in `LICENSE.md`; full texts are in `LICENSES/`. The preferred citation will be finalized with the archival DOI. See `LICENSE_STATUS.md` and `CITATION.cff` for release metadata.
 
-## Planned versioned console command
+## Prepare the reader files from R
 
-After public release and native-R testing, the reader command will use a readable version tag rather than a long commit identifier. The proposed tag `v1.0.0` has not yet been created:
+Run these commands from a directory where you want a new `Cusp_Tutorial` folder:
 
 ```r
 source("https://raw.githubusercontent.com/Renaud-Mabire/stochastic-cusp-tutorial/v1.0.0/prepare_tutorial.R")
 setwd(prepare_cusp_tutorial())
 ```
 
-This is a planned command, not a working public link. The release tag will be kept fixed; corrections will receive a new version. GitHub tags can technically be moved, so the underlying commit identifier will also be recorded in the release and the Zenodo archive.
+The `v1.0.0` tag identifies this release and will be kept fixed. Corrections will receive a new version. Its underlying commit identifier is recorded on the GitHub release page. File preparation runs no analysis; after it finishes, follow the article or the interactive route above.
