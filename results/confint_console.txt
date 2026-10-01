@@ -1,0 +1,7 @@
+                                0.025       0.975
+a[(Intercept)]            -0.13629199  0.04730578
+a[personal_resources_z]    0.64747171  0.83861152
+b[(Intercept)]             0.17196049  0.71846750
+b[acute_stress_z]          0.89222062  1.14996437
+w[(Intercept)]            -0.09567802 -0.00140021
+w[adaptive_functioning_z]  0.99559538  1.08306956

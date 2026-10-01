@@ -1,0 +1,40 @@
+
+Call:
+cusp::cusp(formula = y ~ adaptive_functioning_z, alpha = alpha ~ 
+    personal_resources_z, beta = beta ~ acute_stress_z, data = dat, 
+    optim.method = "L-BFGS-B")
+
+Deviance Residuals: 
+      Min         1Q     Median         3Q        Max  
+-2.839383  -0.469037  -0.007662   0.461840   2.764633  
+
+Coefficients:
+                          Estimate Std. Error z value Pr(>|z|)    
+a[(Intercept)]            -0.04449    0.04684  -0.950  0.34213    
+a[personal_resources_z]    0.74304    0.04876  15.238  < 2e-16 ***
+b[(Intercept)]             0.44521    0.13942   3.193  0.00141 ** 
+b[acute_stress_z]          1.02109    0.06575  15.529  < 2e-16 ***
+w[(Intercept)]            -0.04854    0.02405  -2.018  0.04357 *  
+w[adaptive_functioning_z]  1.03933    0.02232  46.575  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+  Null deviance: 1295.17  on 1199  degrees of freedom
+Linear deviance:  865.15  on 1196  degrees of freedom
+Logist deviance:      NA  on   NA  degrees of freedom
+ Delay deviance:  777.37  on 1194  degrees of freedom
+
+             R.Squared    logLik npar      AIC     AICc      BIC
+Linear model 0.2784432 -1506.420    4 3020.839 3020.873 3041.199
+Cusp model   0.4002963 -1313.293    6 2638.586 2638.656 2669.126
+---
+Note: R.Squared for cusp model is Cobb's pseudo-R^2. This value
+      can become negative.
+
+	Chi-square test of linear vs. cusp model
+
+X-squared = 386.3, df = 2, p-value = 0
+
+Number of optimization iterations: 36
+

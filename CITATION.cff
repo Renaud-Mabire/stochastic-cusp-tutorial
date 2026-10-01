@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Preparation metadata only. A preferred citation and archival DOI will be added at public release."
+title: "A Step-by-Step Tutorial on the Stochastic Cusp Model in R — companion materials"
+type: software
+authors:
+  - family-names: "Mabire-Yon"
+    given-names: "Renaud"
+    orcid: "https://orcid.org/0000-0003-1972-5741"
+  - family-names: "Grasman"
+    given-names: "Raoul P. P. P."
+    orcid: "https://orcid.org/0000-0001-7458-1272"
+  - family-names: "van der Maas"
+    given-names: "Han L. J."
+    orcid: "https://orcid.org/0000-0001-8278-319X"

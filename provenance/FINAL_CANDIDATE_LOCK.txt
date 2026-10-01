@@ -1,0 +1,3 @@
+Jeu selectionne : D0_screen_28062027
+Premier candidat admissible dans l'ordre 28062027, 28062028, 28062029.
+Selection d'un jeu individuel ; le generateur reste non admis au critere historique 29/30.

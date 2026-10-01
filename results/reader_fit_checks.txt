@@ -1,0 +1,15 @@
+$code
+[1] 0
+
+$converged
+[1] TRUE
+
+$OK
+[1] TRUE
+
+$rank
+[1] 6
+attr(,"ranks")
+ranka rankb ranky 
+    2     2     2 
+

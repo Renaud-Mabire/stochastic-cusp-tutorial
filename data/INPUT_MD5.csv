@@ -1,0 +1,9 @@
+file,md5
+data/analysis.csv,bdcb6f334916570807c16a4354f52655
+data/analysis_data.rds,b7600cf094f87ba6677daa27f2d1aecb
+data/bundle.rds,a35d5deb2885b4577f4783034c02f08d
+data/generating_truth.rds,1461cc74c343b6f947b28d0b62d0c9d8
+data/observed.csv,8c9703512abd3a2cd7713d43e5e53294
+data/observed_data.rds,5d32e4b762b3c06fce10feb5797a0222
+data/preprocessing.csv,bc7297cdb9cf237331152df5da4b40e9
+data/truth.csv,020c78d8892c1e4103292ea32d5597ac

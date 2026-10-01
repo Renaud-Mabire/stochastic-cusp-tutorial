@@ -1,0 +1,55 @@
+List of 38
+ $ coefficients         : Named num [1:6] -0.0445 0.743 0.4452 1.0211 -0.0485 ...
+  ..- attr(*, "names")= chr [1:6] "a[(Intercept)]" "a[personal_resources_z]" "b[(Intercept)]" "b[acute_stress_z]" ...
+ $ residuals            : num [1:1200, 1] 1.1123 -0.1726 -0.0562 0.1313 0.4678 ...
+  ..- attr(*, "dimnames")=List of 2
+ $ fitted.values        : num [1:1200, 1] 0.517 -1.392 1.725 -1.635 1.193 ...
+  ..- attr(*, "dimnames")=List of 2
+ $ effects              : Named num [1:1200] 0 0 0 0 0 0 0 0 0 0 ...
+  ..- attr(*, "names")= chr [1:1200] "a[(Intercept)]" "a[personal_resources_z]" "b[(Intercept)]" "b[acute_stress_z]" ...
+ $ R                    : num [1:6, 1:6] -1492 0 0 0 0 ...
+  ..- attr(*, "dimnames")=List of 2
+ $ rank                 : int 6
+  ..- attr(*, "ranks")= Named int [1:3] 2 2 2
+  .. ..- attr(*, "names")= chr [1:3] "ranka" "rankb" "ranky"
+ $ qr                   :List of 5
+  ..- attr(*, "class")= chr "qr"
+ $ family               :List of 13
+  ..- attr(*, "class")= chr "family"
+ $ linear.predictors    : num [1:1200, 1:2] 0.585 -0.994 0.635 -0.833 0.523 ...
+  ..- attr(*, "dimnames")=List of 2
+ $ deviance             : num 777
+ $ aic                  : num 2639
+  ..- attr(*, "ranks")= Named int [1:3] 2 2 2
+  .. ..- attr(*, "names")= chr [1:3] "ranka" "rankb" "ranky"
+ $ null.deviance        : num 1295
+ $ iter                 : Named int 36
+  ..- attr(*, "names")= chr "function"
+ $ weights              : num [1:1200] 1 1 1 1 1 1 1 1 1 1 ...
+ $ prior.weights        : num [1:1200] 1 1 1 1 1 1 1 1 1 1 ...
+ $ df.residual          : int 1194
+  ..- attr(*, "ranks")= Named int [1:3] 2 2 2
+  .. ..- attr(*, "names")= chr [1:3] "ranka" "rankb" "ranky"
+ $ df.null              : int 1199
+ $ y                    : num [1:1200, 1] 1.63 -1.56 1.67 -1.5 1.66 ...
+ $ converged            : logi TRUE
+ $ boundary             : logi FALSE
+ $ par                  : num [1:6] 0.0445 0.743 -0.4454 -1.0211 0.0486 ...
+ $ Hessian              : num [1:6, 1:6] 885.6 4.5 -18.7 -22.5 -1200 ...
+ $ hessian.untransformed: num [1:6, 1:6] 884.8 -4.5 -18.6 -22.5 -1199 ...
+ $ qr.transform         : num [1:6, 1:6] -1 0 0 0 0 ...
+ $ code                 : int 0
+ $ message              : chr "CONVERGENCE: REL_REDUCTION_OF_F <= FACTR*EPSMCH"
+ $ model                :List of 3
+ $ x                    :List of 3
+ $ call                 : language cusp::cusp(formula = y ~ adaptive_functioning_z, alpha = alpha ~ personal_resources_z, beta = beta ~ acute_stress| __truncated__
+ $ formula              :List of 3
+ $ terms                :List of 3
+ $ OK                   : logi TRUE
+ $ data                 :'data.frame':	1200 obs. of  4 variables:
+ $ offset               : NULL
+ $ control              :List of 3
+ $ method               : chr "cusp.fit"
+ $ contrasts            :List of 3
+ $ xlevels              :List of 3
+ - attr(*, "class")= chr [1:3] "cusp" "glm" "lm"

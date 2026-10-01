@@ -1,0 +1,4 @@
+"bundle_id","seed","method","archived_native_stable","fresh_native_stable","six_native_stable","archived_truth_ok","fresh_truth_ok","reference_status","reference_point_pass","reference_inference_pass","eligible"
+"D0_screen_28062027",28062027,"L-BFGS-B",TRUE,TRUE,TRUE,TRUE,TRUE,"complete",TRUE,TRUE,TRUE
+"D0_screen_28062028",28062028,"L-BFGS-B",TRUE,TRUE,TRUE,TRUE,TRUE,"complete",TRUE,FALSE,FALSE
+"D0_screen_28062029",28062029,"L-BFGS-B",TRUE,TRUE,TRUE,TRUE,TRUE,"complete",TRUE,FALSE,FALSE

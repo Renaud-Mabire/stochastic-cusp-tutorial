@@ -1,0 +1,7 @@
+Status: COMPLETE
+Mode: protocol
+Recommendation status: PROVISIONAL_PENDING_ARCHIVE_REVIEW
+Scientific category: KEEP_CURRENT_DGP_STANDARD_OUTPUT
+Selection scope: FIXED_DATASET_ONLY_NOT_DGP_VALIDATION
+Generator aggregate admitted: FALSE (historical result unchanged)
+Archive a verifier avant toute decision finale.
