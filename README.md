@@ -38,11 +38,11 @@ Use either fitting route unless you intend to fit twice. Only a complete run can
 - `R/`: the reader workflow and plotting helper.
 - `data/`: fixed observations, analysis data, generating truth, preprocessing information, and input checksums.
 - `results/`: recorded estimates, console output, confidence intervals, density profiles, and the saved fitted object.
-- `provenance/`: the selected-example record and the original native reader-results archive. Historical validation archives remain separately preserved in the full companion package.
+- `provenance/`: a short English note on the origin and selection of the example, and the original native reader-results archive. Detailed historical records remain separately preserved for the planned archival deposit.
 - `prepare_tutorial.R`: a file-preparation helper for the future online setup.
 - `READER_FILES_MD5.csv`: the files fetched by that helper and their expected checksums.
 
-The selected teaching example and its numerical checks do not establish general package performance, coverage, or false-positive rates. The selection record is retained in the companion materials.
+The selected teaching example and its numerical checks do not establish general package performance, coverage, or false-positive rates. The short provenance note explains how the example was selected; the complete historical record remains separately preserved.
 
 ## Online setup and release status
 
