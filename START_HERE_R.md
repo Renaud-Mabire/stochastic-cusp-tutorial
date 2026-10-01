@@ -10,4 +10,4 @@ These files contain the fixed data and reader scripts for version 1.7.0 of *A St
 
 For automated fitting and export instead, run `source("R/run_tutorial.R")`. It creates a timestamped results archive without overwriting previous runs. Do not run both routes unless you intend to fit the model twice. To read archived output without fitting, use `source("R/view_archived.R")`.
 
-The reader download contains no historical validation archives or LaTeX build files. A short English provenance note and the native reader archive are available in the repository; detailed historical records remain separately preserved for the planned archival deposit. No public download URL exists yet; the online setup still needs author testing after hosting is configured.
+The reader download contains no historical validation archives or LaTeX build files. A short English provenance note and the native reader archive are available in the repository; detailed historical records remain separately preserved for the planned archival deposit. The repository is now public; the online setup still needs author testing before the versioned command is finalized.

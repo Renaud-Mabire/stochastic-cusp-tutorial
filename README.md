@@ -2,7 +2,7 @@
 
 Fixed synthetic data and reader scripts accompanying the tutorial by Renaud Mabire-Yon, Raoul P. P. P. Grasman, and Han L. J. van der Maas.
 
-**Preparation version.** These materials are derived from the manuscript package v1.7.0. Public release and the archival DOI are pending. The first author approved MIT for code and CC BY 4.0 for the data and documentation. The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
+**Preparation version.** These materials are derived from the manuscript package v1.7.0. The repository is public; the versioned release and archival DOI are pending. The first author approved MIT for code and CC BY 4.0 for the data and documentation. The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
 
 ## Start locally
 
@@ -48,7 +48,7 @@ The selected teaching example and its numerical checks do not establish general 
 
 After public hosting, readers will be able to source `prepare_tutorial.R` from a URL pinned to the approved Git commit, then call `setwd(prepare_cusp_tutorial())`. This prepares the reader files and checks their hashes; it neither installs packages nor runs analyses. It refuses to overwrite an existing destination folder.
 
-No working public setup URL or DOI is supplied in this preparation version. The helper has been parsed and statically inspected but has not been tested against a hosted release. The first author must test it before its command is added to the article. The complete interactive tutorial, including its single-profile plot, also awaits native-R execution by the first author. The automated reader run is already archived.
+The public repository is available, but the planned version-tagged setup command and archival DOI are not yet finalized. The helper has been parsed and statically inspected but has not been tested against a hosted release. The first author must test it before its command is added to the article. The complete interactive tutorial, including its single-profile plot, also awaits native-R execution by the first author. The automated reader run is already archived.
 
 No models, simulations, densities, or statistical calculations were executed while preparing this repository. Original reader scripts, data, and archived results were copied without modification.
 
