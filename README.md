@@ -2,7 +2,7 @@
 
 Fixed synthetic data and reader scripts accompanying the tutorial by Renaud Mabire-Yon, Raoul P. P. P. Grasman, and Han L. J. van der Maas.
 
-**Preparation version.** These materials are derived from the manuscript package v1.7.0. Public release, reuse licenses, and the archival DOI have not yet been approved. The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
+**Preparation version.** These materials are derived from the manuscript package v1.7.0. Public release and the archival DOI are pending. The first author approved MIT for code and CC BY 4.0 for the data and documentation. The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
 
 ## Start locally
 
@@ -52,4 +52,15 @@ No working public setup URL or DOI is supplied in this preparation version. The 
 
 No models, simulations, densities, or statistical calculations were executed while preparing this repository. Original reader scripts, data, and archived results were copied without modification.
 
-Licenses and the preferred citation will be finalized with the public release. See `LICENSE_STATUS.md` and `CITATION.cff` for the current preparation metadata.
+License scope and attribution are documented in `LICENSE.md`; full texts are in `LICENSES/`. The preferred citation will be finalized with the archival DOI. See `LICENSE_STATUS.md` and `CITATION.cff` for preparation metadata.
+
+## Planned versioned console command
+
+After public release and native-R testing, the reader command will use a readable version tag rather than a long commit identifier. The proposed tag `v1.0.0` has not yet been created:
+
+```r
+source("https://raw.githubusercontent.com/Renaud-Mabire/stochastic-cusp-tutorial/v1.0.0/prepare_tutorial.R")
+setwd(prepare_cusp_tutorial())
+```
+
+This is a planned command, not a working public link. The release tag will be kept fixed; corrections will receive a new version. GitHub tags can technically be moved, so the underlying commit identifier will also be recorded in the release and the Zenodo archive.

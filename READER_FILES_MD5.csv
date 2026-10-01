@@ -5,7 +5,7 @@ R/plot_profiles.R,7f47932cdd6c79d3c1c08b2112d23dde
 R/run_tutorial.R,c14f4227a4a1906b7423c0a19d1178e2
 R/tutorial.R,eff756a07a4ea3bece223baa93579b37
 R/view_archived.R,6ae2d2c2c3d1aa09885f74c97c0c53e4
-README.md,01f14a6cfe719a82b32215388ce300c7
+README.md,e2a4d8c253c76d178a2e8cc0166ca8b3
 START_HERE_R.md,44f71552e4e1e39ec71ccf5397c3c3cc
 data/INPUT_MD5.csv,82286ce4f1ce893ea973c90571f96a5d
 data/analysis.csv,bdcb6f334916570807c16a4354f52655
@@ -25,3 +25,8 @@ results/fit_native.rds,753df950221924794ef50b6a206cddcb
 results/reader_fit_checks.txt,b0844f8133e43378e10d8b7d20f7063d
 results/reader_fit_structure.txt,c6ae621e2b467c0cc9818529ca797147
 results/reader_summary_console.txt,2344addce9b5a4d9ce24695e23b203a8
+LICENSE.md,f75be1d5ce80ec8ac6cf8c816418ed62
+LICENSE_STATUS.md,64c777daa451dfddfa793be58c119ca9
+LICENSES/MIT.txt,3199282e07a997f554b1ff042b835c36
+LICENSES/CC-BY-4.0.txt,2ab724713fdaf49e4523c4503bfd068d
+CITATION.cff,ded3f402b3ca782653bf6059c75983a2

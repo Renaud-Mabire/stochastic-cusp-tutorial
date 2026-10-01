@@ -1,5 +1,5 @@
-# License status
+# License and release status
 
-Reuse licenses for the code, synthetic data, and documentation have not yet been approved by the authors. This preparation version contains no license grant. The license of the third-party cusp package is governed by that package; its source is not bundled here.
+On October 1, 2026, the first author approved MIT for the tutorial code and CC BY 4.0 for the original synthetic data, recorded results, and documentation. See `LICENSE.md` for scope and attribution and `LICENSES/` for the full texts.
 
-Before public release, record the agreed licenses and add their full texts. Do not interpret access to these files as approval of a proposed license.
+The repository remains private. Approval of these licenses does not authorize public release or Zenodo publication. The first author will coordinate any outstanding coauthor confirmations before public release.
