@@ -2,7 +2,7 @@
 
 Fixed synthetic data and reader scripts accompanying the tutorial by Renaud Mabire-Yon, Raoul P. P. P. Grasman, and Han L. J. van der Maas.
 
-**Companion materials v1.0.0.** These materials accompany manuscript package v1.7.0. The repository is public. Code is licensed under MIT; original data, results, and documentation are licensed under CC BY 4.0. The archival DOI is pending. The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
+**Companion materials v1.0.0.** The fixed data, analysis scripts, and archived results are also used by subsequent editorial revisions of the manuscript. The repository is public. Code is licensed under MIT; original data, results, and documentation are licensed under CC BY 4.0. The archival DOI is [10.5281/zenodo.23079540](https://doi.org/10.5281/zenodo.23079540). The manuscript is being prepared for submission to *Advances in Methods and Practices in Psychological Science*.
 
 ## Start locally
 
@@ -29,7 +29,7 @@ The observations are already standardized. The fixed example has 1,200 observati
 
 Use either fitting route unless you intend to fit twice. Only a complete run can be compared with the recorded output. Scripts deliberately stop with another cusp version.
 
-`source("R/plot_profiles.R")` loads two function definitions; `plot_tutorial_profiles(fit)` then evaluates conditional densities and draws the panels using that fitted object. The function source contains explanatory comments. The manuscript supplement and technical reference provide the corresponding explanation.
+`source("R/plot_profiles.R")` loads two function definitions; `plot_tutorial_profiles(fit)` then evaluates conditional densities and draws the panels using that fitted object. The function source contains explanatory comments. The manuscript supplement explains the calculation and reproduces the full annotated helper source.
 
 `R/export_confint.R` is an optional utility for applying the public `confint()` method to the saved fit. The recorded intervals are already supplied; this utility is unnecessary for reading them.
 
@@ -38,8 +38,8 @@ Use either fitting route unless you intend to fit twice. Only a complete run can
 - `R/`: the reader workflow and plotting helper.
 - `data/`: fixed observations, analysis data, generating truth, preprocessing information, and input checksums.
 - `results/`: recorded estimates, console output, confidence intervals, density profiles, and the saved fitted object.
-- `provenance/`: a short English note on the origin and selection of the example, and the original native reader-results archive. Detailed historical records remain separately preserved for the planned archival deposit.
-- `prepare_tutorial.R`: a file-preparation helper for the future online setup.
+- `provenance/`: a short English note on the origin and selection of the example, and the original native reader-results archive. Detailed historical records are retained separately by the first author; they are not included in this reader release.
+- `prepare_tutorial.R`: a file-preparation helper for the versioned online setup.
 - `READER_FILES_MD5.csv`: the files fetched by that helper and their expected checksums.
 
 The selected teaching example and its numerical checks do not establish general package performance, coverage, or false-positive rates. The short provenance note explains how the example was selected; the complete historical record remains separately preserved.
@@ -48,11 +48,11 @@ The selected teaching example and its numerical checks do not establish general 
 
 Readers can source `prepare_tutorial.R` from the version-tagged URL below, then call `setwd(prepare_cusp_tutorial())`. This prepares the reader files and checks their hashes; it neither installs packages nor runs analyses. It refuses to overwrite an existing destination folder.
 
-On October 1, 2026, the first author ran the public-download check under native R 4.6.0 on macOS: all 31 reader files matched their expected hashes, with no recorded errors or warnings. He subsequently confirmed that the complete interactive tutorial worked on his Mac. The interactive confirmation is a user report; it is not a new archived statistical-results audit. The earlier automated reader run remains archived. The setup function and analysis scripts are unchanged from the tested preparation. These checks do not establish performance on every R environment. A Zenodo DOI will be added after archival publication.
+On October 1, 2026, the first author ran the public-download check under native R 4.6.0 on macOS: all 31 reader files matched their expected hashes, with no recorded errors or warnings. He subsequently confirmed that the complete interactive tutorial worked on his Mac. The interactive confirmation is a user report; it is not a new archived statistical-results audit. The earlier automated reader run remains archived. The setup function and analysis scripts are unchanged from the tested preparation. These checks do not establish performance on every R environment. The published release is archived on Zenodo at https://doi.org/10.5281/zenodo.23079540.
 
 No models, simulations, densities, or statistical calculations were executed while preparing this repository. Original reader scripts, data, and archived results were copied without modification.
 
-License scope and attribution are documented in `LICENSE.md`; full texts are in `LICENSES/`. The preferred citation will be finalized with the archival DOI. See `LICENSE_STATUS.md` and `CITATION.cff` for release metadata.
+License scope and attribution are documented in `LICENSE.md`; full texts are in `LICENSES/`. The preferred citation uses the archival DOI recorded in `CITATION.cff`. See `LICENSE_STATUS.md` and `CITATION.cff` for release metadata.
 
 ## Prepare the reader files from R
 
@@ -64,3 +64,5 @@ setwd(prepare_cusp_tutorial())
 ```
 
 The `v1.0.0` tag identifies this release and will be kept fixed. Corrections will receive a new version. Its underlying commit identifier is recorded on the GitHub release page. File preparation runs no analysis; after it finishes, follow the article or the interactive route above.
+
+Documentation on the `main` branch was updated on October 2, 2026, after Zenodo publication. The v1.0.0 tag and deposited archive remain fixed; their README records the status at release preparation. The version-tagged setup above continues to retrieve that archived release.
